@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Calculator</title>
+</head>
+<body>
+
+    <header>
+        
+        <nav>
+            <ul class="nav-list">
+                A basic calculator... with colors
+                <!--li class="nav-item"><a href="">Homepage</a></li>
+                <li class="nav-item"><a href="">Portfolio</a></li>
+                <li class="nav-item"><a href=""> My CV</a></li-->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div></div>
+        <div id="calc-body">
+            <div id="calc-screen">
+                <div id="calc-screen-upper"></div>
+                <div id="calc-screen-lower"></div>
+            </div>
+            <div id="calc-buttons">
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-pm">7</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-8">8</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-9">9</button></div>
+                <div><button type="button" class="calc-button symbol-button operation-button" id="calc-button-+">+</button></div>
+                <div><button type="button" class="calc-button" id="calc-button-CE">CE</button></div>
+
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-4">4</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-5">5</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-6">6</button></div>
+                <div><button type="button" class="calc-button symbol-button operation-button" id="calc-button--">-</button></div>
+                <div><button type="button" class="calc-button" id="calc-button-C">C</button></div>
+
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-1">1</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-2">2</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-3">3</button></div>
+                <div><button type="button" class="calc-button symbol-button operation-button" id="calc-button-x">*</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-(">(</button></div>
+
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-.">.</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-0">0</button></div>
+                <div><button type="button" class="calc-button symbol-button operation-button" id="calc-button-^">^</button></div>
+                <div><button type="button" class="calc-button symbol-button operation-button" id="calc-button-/">/</button></div>
+                <div><button type="button" class="calc-button symbol-button value-button" id="calc-button-)">)</button></div>
+                <div><button type="button" class="calc-button" id="calc-button-eq">=</button></div>            
+            </div>
+        </div>   
+        <div id="color-container">
+            <select name="color-selector" id="color-selector">
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="yellow">Yellow</option>
+            </select>
+        </div>     
+    </main>
+
+    <footer>
+        <ul class="nav-list">
+            <li class="nav-item">
+                Simon Titkó • 2023
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.1.0/math.js"> </script>
+    <script src="calculator.js"></script>
+
+</body>
+</html>
